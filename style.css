@@ -33,3 +33,7 @@ body {
 	background-color: lightgray;
 	border: 1px solid #ddd;
 }
+
+.cell:hover {
+	filter: brightness(90%);
+}
