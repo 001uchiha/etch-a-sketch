@@ -8,7 +8,28 @@
 </head>
 <body>
 	<h1>Etch-a-Sketch</h1>
-	<button id="generateBtn">Generate grid</button>
+	<div class="toolbar">
+		<button id="generateBtn">Generate grid</button>
+		<button id="modeBtn">Mode: Draw</button>
+
+		<div class="icon-box" id="iconBox">
+			<img src="image/colors.png">
+			<div class="bar" id="colorBar"></div>
+
+			<div class="palette" id="palette">
+				<div style="background: #75fbfd;"></div>
+				<div style="background: #ff6b6b;"></div>
+				<div style="background: #ffd9d3;"></div>
+				<div style="background: #6bcb77;"></div>
+				<div style="background: #4d96ff;"></div>
+				<div style="background: #ff8c00;"></div>
+				<div style="background: #9B59B6;"></div>
+				<div style="background: #2ECC71;"></div>
+				<div style="background: #E67E22;"></div>
+				<div style="background: #E74C3C;"></div>
+			</div>
+		</div>
+	</div>
 	<div class="grid-container"></div>
 
 	<script src="script.js"></script>
